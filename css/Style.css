@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 /* creating left margin for logo */
 img{
     margin-left: 8%;
@@ -44,8 +43,8 @@ img{
 /* resizing top carousal images */
 .carousel-item img{
    min-height: 300px;
-   width: 1250px;
-   margin-left: 15px;
+   width:100%;
+   margin-left: 0;
 }
 /* top destination head tag, images, anchor tag designing */
 .Top-destinations h3{
@@ -85,89 +84,6 @@ img{
     border: 1px solid whitesmoke;
   }
 
-/* SignIn form design */
-  /* Bordered form */
-form {
-  /* border: 3px solid #f1f1f1; */
-  height:30%;
-  width: 40%;
-  margin-left: 25%;
-}
-.container h3, h4{
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  color: navy;
-  font-weight: bolder;
-  font-style:normal
-}
-
-label{
-  text-align: center;
-  margin-left: 12%;
-}
-
-/* Full-width inputs */
-input[type=text], input[type=password] {
-  width: 75%;
-  padding: 12px 20px;
-  margin: 8px ;
-  /* display: inline-block; */
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  margin-left: 12%;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 75%;
-  margin-left: 12%;
-}
-
-/* Add a hover effect for buttons */
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the  image inside this container */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-}
-
-/* Avatar image */
-img.avatar {
-  width: 15%
- 
-}
-
-/* Add padding to containers */
-.container {
-  border: 1px solid grey;
-  padding: 45px;
-  margin-top: 15px;
-  /* margin-left: 15%;
-  margin-right: 15%; */
-}
-
-/* The "Forgot password" text */
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-/* Signin ended */
 
 .inner_container .homeback a{
   border: 1px solid navy;
@@ -178,6 +94,13 @@ span.psw {
   padding: 8px;
   height: 5px;
   margin-top: 27px;
+}
+footer{
+  /* margin-left: 32%; */
+  margin-top: 40px;
+  padding: 35px;
+  padding-left: 2%;
+  background-color: lightgray;
 }
 
 
