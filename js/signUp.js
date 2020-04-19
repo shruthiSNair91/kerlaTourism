@@ -173,6 +173,7 @@ function validateConfirmPwd()
 function cancelSignup()
 {
   window.location = "Home.html";
+  return false;
 }
 
 function validateAll()
